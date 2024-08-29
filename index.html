@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="heading">
+        <h1>Hogwarts houses</h1>
+    </div>
+
+    <div class="container">
+        <div class="one item selected" >
+            <h4>Gryffindor</h4>
+            <p class="par">While the bravest and the boldest Went to daring Gryffindor</p>
+        </div>
+
+        <div class="two item selected" >
+            <h4>Ravenclaw</h4>
+            <p class="par">Wit beyond measure is man's greatest treasure</p>
+        </div>
+
+        <div class="three item selected" >
+            <h4>Slytherin</h4>
+            <p class="par">Or perhaps in Slytherin, You'll make your real friends, Those cunning folk use any means, To achieve their ends.</p>
+        </div>
+
+        <div class="four item selected" >
+            <h4>Hufflepuff</h4>
+            <p class="par">Everyone says Hufflepuff are a lot o' duffers</p>
+        </div>
+    </div>
+
+    <div class="heading">
+        <h3>Contact with us</h3>
+    </div>
+<form
+        action="https://formspree.io/f/meqdvbea"
+        method="POST">
+    <input type="hidden" name="_language" value="en" />
+
+<div class="heading">
+    <label>
+        Your email:
+        <input type="email" class="text-input" name="email" placeholder="Your email..." required="">
+    </label>
+</div>
+
+<div class="heading">
+    <label>
+        Your message:
+        <textarea class="text-input" name="message" placeholder="Type your message..." required=""></textarea>
+    </label>
+</div>
+<br>
+    <!-- your other form fields go here -->
+<div class="heading">
+        <button class="btn" type="submit">Send</button>
+</div>
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
